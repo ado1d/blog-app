@@ -1,0 +1,29 @@
+<%- include("partials/header.ejs") %>
+<main>
+    <div class="container pt-5">
+        <h2 class="mb-4">Create a New Blog Post</h2>
+        <form action="/create" method="post">
+            <div class="mb-3">
+                <label for="authorName" class="form-label">Author Name</label>
+                <input type="text" class="form-control" id="authorName" name="authorName" placeholder="Enter author name" required>
+            </div>
+            
+            <!-- Blog Title Field -->
+            <div class="mb-3">
+                <label for="blogTitle" class="form-label">Blog Title</label>
+                <input type="text" class="form-control" id="blogTitle" name="blogTitle" placeholder="Enter blog title" required>
+            </div>
+
+            <!-- Blog Content Field -->
+            <div class="mb-3">
+                <label for="blogContent" class="form-label">Blog Content</label>
+                <textarea class="form-control" id="blogContent" name="blogContent" rows="8" placeholder="Write your blog content here..." required></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary">Submit Blog Post</button>
+        </form>
+    </div>
+</main>
+<%- include("partials/footer.ejs") %>
+

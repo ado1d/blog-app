@@ -1,0 +1,74 @@
+
+
+
+
+.navbar-brand, .nav-link {
+    font-weight: 500;
+}
+
+
+
+* {
+    color: white;
+    font-family: 'Roboto', sans-serif; 
+}
+
+main {
+    background-color: rgba(9, 13, 31, 1);
+
+}
+
+.blog-body {
+    padding-bottom: 5%;
+}
+
+h3 {
+    padding-top: 4%;
+    padding-left: 4%;
+    padding-bottom: 2%;
+
+}
+
+h4 {
+    font-style: italic;
+    
+}
+
+.card {
+  min-height: 200px;
+}
+
+.card-summary {
+    min-height: 100px;
+}
+
+footer {
+    background-color: rgba(9, 13, 31, 1);
+    /* height: 20vh; */
+    color: white;
+
+    min-height: 40vh;
+
+}
+
+.text-muted {
+    color: white;
+}
+
+.blog-post {
+    min-height: 70vh;
+}
+
+#card-content {
+    padding-left: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-weight: bolder;
+    font-size: large;
+
+    background-color: rgb(26, 35, 76);
+    /* font-style: italic;   */
+    color: aliceblue;
+
+}

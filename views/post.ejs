@@ -1,0 +1,17 @@
+<%- include("partials/header.ejs") %>
+
+<main class="blog-post">
+    <div>
+        <h3><%= postObject.title %></h3>
+    </div> 
+
+    <div style="padding-left: 5%;">
+        <h5>Written by : <%= postObject.author %></h5>
+    </div>
+
+    <div class="card content justify-content-center " id="card-content">
+        <%= postObject.content %>
+    </div>
+</main>
+
+<%- include("partials/footer.ejs") %>
