@@ -83,8 +83,8 @@ class BlogPost {
 var posts = [];
 
 const post1 = new BlogPost("Lion King Ayman", "Ayman", "Ayman is a very good boy and very helpful too.");
-const post2 = new BlogPost("Hogay current", "Junayed", "CSS is used for styling web pages. Ajnkjdnfksdkjnkj Bolod adfnk asdnj");
-const post3 = new BlogPost("Hogay ghu", "Akib", "CSS is used for styling web pages. Ajnkjdnfksdkjnkj Bolod adfnk asdnj");
-const post4 = new BlogPost("Mathay ghu", "Mushfik", "CSS is used for styling dfdfdfd pages. Ajnkjdnfksdkjnkj Bolod adfnk asdnj");
+const post2 = new BlogPost("00000current", "Junayed", "CSS is used for styling web pages. Ajnkjdnfksdkjnkj Bolod adfnk asdnj");
+const post3 = new BlogPost("----- ghu", "Akib", "CSS is used for styling web pages. Ajnkjdnfksdkjnkj Bolod adfnk asdnj");
+const post4 = new BlogPost("------ ghu", "Mushfik", "CSS is used for styling dfdfdfd pages. Ajnkjdnfksdkjnkj Bolod adfnk asdnj");
 
 posts.push(post1, post2, post3, post4);
